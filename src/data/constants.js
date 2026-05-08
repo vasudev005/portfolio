@@ -138,7 +138,7 @@ export const projects = [
     id: 2,
     title: "Prep Master",
     date: "2025",
-    description: "Developed a full-stack Interview Preparation Platform designed to help users improve technical interview readiness through structured preparation and progress tracking. The platform features an interactive dashboard with coding analytics, skill-based performance monitoring, interview scheduling, and productivity tracking. Designed a modern and responsive user interface inspired by GitHub and Apple design aesthetics to enhance user experience across devices. Implemented scalable and user-friendly workflows using modern web technologies to provide real-time insights and personalized preparation support.",
+    description: "Developed a full-stack Interview Preparation Platform designed to help users improve technical interview readiness through structured preparation and progress tracking. The platform features an interactive dashboard with coding analytics, skill-based performance monitoring, interview scheduling, and productivity tracking.Implemented a scalable modern web technologies to provide real-time insights and personalized preparation support.",
     image: PrepMasterLogo,
     tags: ["React", "Node", "MongoDB", "HTML", "CSS"],
     github: "https://github.com/...",
