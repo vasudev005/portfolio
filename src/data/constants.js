@@ -6,7 +6,8 @@ import ProfileImage from "../images/HeroImage.jpg";
 import RecvueLogo from "../images/recvue.png";
 import ResonanceLogo from "../images/resonance.png";
 import GitamLogo from "../images/GitamLogo.jpg";
-export { ProfileImage, RecvueLogo, ResonanceLogo };
+import PrepMasterLogo from "../images/prep.png";
+export { ProfileImage, RecvueLogo, ResonanceLogo, PrepMasterLogo, GitamLogo };
 export const DreamflowIcon  = "https://www.genspark.ai/api/files/s/zhOEnt3E";
 export const FlutterIcon    = "https://www.genspark.ai/api/files/s/YO68iXZt";
 export const FlutterFlowIcon= "https://www.genspark.ai/api/files/s/B9EHSltK";
@@ -126,22 +127,22 @@ export const projects = [
     title:       "Portfolio Website",
     date:        "2025",
     description: "A personal portfolio website built with React featuring dark space theme, particle animations, typing effects, and glassmorphism UI. Fully responsive and deployed via GitHub Pages.",
-    image:       "",          // ← add a screenshot URL or local path
+    image:       "#",          // ← add a screenshot URL or local path
     tags:        ["React", "CSS", "Particles", "AOS"],
     github:      "https://github.com/vasudev005",
-    webapp:      "#",
+    webapp:      "https://vasudev005.github.io/portfolio-website/",
     category:    "Web",
   },
   // ── Add more projects below ──────────────────────────────────────────────
-  // {
-  //   id: 2,
-  //   title: "Your Next Project",
-  //   date:  "2025",
-  //   description: "Brief description ...",
-  //   image: "",
-  //   tags:  ["React", "Node", "MongoDB"],
-  //   github: "https://github.com/...",
-  //   webapp: "https://...",
-  //   category: "Web",
-  // },
+    {
+    id: 2,
+    title: "Prep Master",
+    date: "2025",
+    description: "Developed a full-stack Interview Preparation Platform designed to help users improve technical interview readiness through structured preparation and progress tracking. The platform features an interactive dashboard with coding analytics, skill-based performance monitoring, interview scheduling, and productivity tracking. Designed a modern and responsive user interface inspired by GitHub and Apple design aesthetics to enhance user experience across devices. Implemented scalable and user-friendly workflows using modern web technologies to provide real-time insights and personalized preparation support.",
+    image: PrepMasterLogo,
+    tags: ["React", "Node", "MongoDB", "HTML", "CSS"],
+    github: "https://github.com/...",
+    webapp: "https://v0-interview-prep-platform-eight.vercel.app/",
+    category: "Web",
+  },
 ];
